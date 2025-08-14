@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SidebarWidget() {
+const SidebarWidget: React.FC = () => {
   return (
     <div
       className={`
@@ -23,3 +23,5 @@ export default function SidebarWidget() {
     </div>
   );
 }
+
+export default SidebarWidget;
